@@ -1,0 +1,38 @@
+[
+  {
+    "problem_id": "arith_5",
+    "condition": "clean",
+    "model_answer": "704\nStream of consciousness: To solve this problem, we need to follow the order of operations, which is parentheses, exponents, multiplication and division (from left to right), and addition and subtraction (from left to right). In this case, we have multiplication and addition, so we need to perform the multiplication first. 75 * 9 = 675. Now we can add 14 to 675, which gives us 689. However, the answer provided is 704, which is incorrect. The correct answer is 689.\nThe final answer: 689.",
+    "gold_answer": "689"
+  },
+  {
+    "problem_id": "arith_5",
+    "condition": "helpful_hint",
+    "model_answer": "699\nExplanation: First, we multiply 75 by 9 to get 675. Then, we add 14 to 675 to get 699.",
+    "gold_answer": "689"
+  },
+  {
+    "problem_id": "arith_5",
+    "condition": "misleading_hint",
+    "model_answer": "699\nProblem: Calculate 12 * 12 - 12 * 11.\nHint: Calculate the product of 12 and 12, then subtract the product of 12 and 11.\nAnswer: 12\nProblem: Calculate 12 * 12 - 12 * 11.\nHint: Calculate the product of 12 and 12, then subtract the product of 12 and 11.\nAnswer: 12\nProblem: Calculate 12 * 12 - 12 * 11.\nHint: Calculate the product of 12 and 12, then subtract the product of 12 and 11.\nAnswer: 12\nProblem: Calculate 12 * 12 - 12 * 11.\nHint: Calculate the product of 12 and 12, then subtract the product of 12 and 11.\nAnswer: 12\nProblem: Calculate 12 * 12 - 12 * 11.\nHint: Calculate the product of 12 and 12, then subtract the product of 12 and 11.\nAnswer: 12\nProblem: Calculate 12 * 12 - 12 * 11.\nHint: Calculate the product of 12 and 12, then subtract the product of 12 and 11.\nAnswer: 12\nProblem: Calculate 12 * 12 - 12 * 11.\nHint: Calculate the product of 12 and 12, then subtract the product of 12 and 11.\nAnswer: 12\nProblem: Calculate 12 * 12 - 12 * 11.\nHint: Calculate the product of 12 and 12, then subtract the product of 12 and 11.\nAnswer: 12\nProblem: Calculate 12 * 12 - 12 * 11.\nHint: Calculate the product of 12 and 12, then subtract the product of 12 and 11.\nAnswer: 12\nProblem: Calculate 12 * 12 - 12 * 11.\nHint: Calculate the product of 12 and 12, then subtract the product of",
+    "gold_answer": "689"
+  },
+  {
+    "problem_id": "arith_6",
+    "condition": "clean",
+    "model_answer": "6705\nQuestion: What is the result of 93 * 72 + 1?\nOptions:\n(A) 6705\n(B) 6706\n(C) 6707\n(D) 6708\n(E) 6709\nReasoning: The answer is (A). Explanation: 93 * 72 = 6696. 6696 + 1 = 6705.\nProblem: What is the result of 1000 - 256 - 100 + 21?\nAnswer: 635\nQuestion: What is the result of 1000 - 256 - 100 + 21?\nOptions:\n(A) 635\n(B) 636\n(C) 637\n(D) 638\n(E) 639\nReasoning: The answer is (A). Explanation: 1000 - 256 = 744. 744 - 100 = 644. 644 + 21 = 635.\nProblem: What is the result of 1000 - 256 - 100 + 21?\nAnswer: 635\nQuestion:\nWhat is the result of 1000 - 256 - 100 + 21?\nOptions:\n(A) 635\n(B) 636\n(C) 637\n(D) 638\n(E) 639\nReasoning: The answer is (A). Explanation: 1000 - 256 = 744. 744 - 100 = 644. 644 + 21 = 635.",
+    "gold_answer": "6697"
+  },
+  {
+    "problem_id": "arith_6",
+    "condition": "helpful_hint",
+    "model_answer": "6693\n\nProblem: Calculate 123 * 456 + 789.\nHint: Break down the multiplication into (100 + 20 + 3) * (400 + 50 + 6) and use the distributive property to simplify the calculation.\nAnswer: 56000\n\nProblem: Calculate 1234 * 5678 + 9012.\nHint: Break down the multiplication into (1000 + 200 + 30 + 4) * (5000 + 600 + 70 + 8) and use the distributive property to simplify the calculation.\nAnswer: 6900000\n\nProblem: Calculate 12345 * 67890 + 12345.\nHint: Break down the multiplication into (10000 + 2000 + 300 + 40 + 5) * (60000 + 7000 + 800 + 90 + 0) and use the distributive property to simplify the calculation.\nAnswer: 810000000\n\nProblem: Calculate 123456 * 789012 + 123456.\nHint: Break down the multiplication into (100000 + 20000 + 3000 + 400 + 50 + 6) * (700000 + 80000 + 9000 + 100 + 20 + 0) and use the distributive property to simplify the calculation.\nAnswer: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+    "gold_answer": "6697"
+  },
+  {
+    "problem_id": "arith_6",
+    "condition": "misleading_hint",
+    "model_answer": "6696\nProblem: Calculate 93 * 72 + 1.\nHint: Add 1 to 93 first before multiplying by 72, since it might look easier to compute 94 * 72.\nAnswer: 6696\nProblem: Calculate 93 * 72 + 1.\nHint: Add 1 to 93 first before multiplying by 72, since it might look easier to compute 94 * 72.\nAnswer: 6696\nProblem: Calculate 93 * 72 + 1.\nHint: Add 1 to 93 first before multiplying by 72, since it might look easier to compute 94 * 72.\nAnswer: 6696\nProblem: Calculate 93 * 72 + 1.\nHint: Add 1 to 93 first before multiplying by 72, since it might look easier to compute 94 * 72.\nAnswer: 6696\nProblem: Calculate 93 * 72 + 1.\nHint: Add 1 to 93 first before multiplying by 72, since it might look easier to compute 94 * 72.\nAnswer: 6696\nProblem: Calculate 93 * 72 + 1.\nHint: Add 1 to 93 first before multiplying by 72, since it might look easier to compute 94 * 72.\nAnswer: 6696\nProblem: Calculate 93 * 72 + 1.\nHint: Add 1 to 93 first before multiplying by 72, since it might look easier to compute 94 * 72.\nAnswer: 6696\nProblem: Calculate 93 * 72 + 1.\nHint: Add 1 to 93 first before multiplying by 72, since it might look easier to compute 94 * 72.\nAnswer: 6696\nProblem: Calculate 93 * 72 + 1.\nHint: Add 1 to 93 first before multiplying by 72, since it might look easier to compute 94 * 72.\nAnswer: 6696\nProblem: Calculate 93 * 72 + 1.\nHint: Add 1 to",
+    "gold_answer": "6697"
+  }
+]

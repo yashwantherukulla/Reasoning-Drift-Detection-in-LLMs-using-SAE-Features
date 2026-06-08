@@ -1,0 +1,5 @@
+# Patching config group — causal activation patching settings
+# Override from CLI: patching.n_features_to_patch=10  etc.
+
+n_features_to_patch: 20    # Number of top-divergent SAE features to patch per problem
+results_dir: "results/patching/"

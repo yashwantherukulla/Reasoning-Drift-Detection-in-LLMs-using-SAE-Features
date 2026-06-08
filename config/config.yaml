@@ -1,0 +1,21 @@
+# @package _global_
+# Hydra root config — compose from config groups.
+# Override any value from the CLI, e.g.:
+#   uv run scripts/curate_problems.py dataset.n_problems=50 model.device=cpu
+
+defaults:
+  - model: qwen3_1_7b
+  - sae: qwen3_sae
+  - dataset: default
+  - activations: default
+  - analysis: default
+  - patching: default
+  - visualization: default
+  - _self_              # allow global overrides to win
+
+hydra:
+  run:
+    dir: results/runs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  sweep:
+    dir: results/multirun/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    subdir: ${hydra.job.num}

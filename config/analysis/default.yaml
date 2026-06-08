@@ -1,0 +1,14 @@
+# Analysis config group — metrics and results settings
+# Override from CLI: analysis.results_dir=results/custom/  etc.
+
+pairwise_conditions:
+  - ["clean", "helpful_hint"]
+  - ["clean", "misleading_hint"]
+  - ["helpful_hint", "misleading_hint"]
+
+results_dir: "results/metrics/"
+
+# Token position to use for Jaccard/RDS comparison.
+# Options: "last_generated" (answer token) | "last_prefix" (last shared prefix token)
+# See plan.md §4 task 4.2 for rationale.
+token_position: "last_generated"

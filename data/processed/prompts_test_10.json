@@ -1,0 +1,212 @@
+[
+  {
+    "problem_id": "arith_5",
+    "category": "arithmetic",
+    "condition": "clean",
+    "prompt": "Continue the pattern exactly. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: What is 8 + 5?\nFinal answer: 13<END>\n\nProblem: What is 7 * 8?\nFinal answer: 56<END>\n\nProblem: Calculate 14 + 75 * 9.\nFinal answer:",
+    "answer": "689"
+  },
+  {
+    "problem_id": "arith_5",
+    "category": "arithmetic",
+    "condition": "helpful_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: What is 8 + 5?\nHint: Add 8 and 5.\nFinal answer: 13<END>\n\nProblem: What is 7 * 8?\nHint: Multiply 7 by 8.\nFinal answer: 56<END>\n\nProblem: Calculate 14 + 75 * 9.\nHint: Perform the multiplication before the addition as per order of operations.\nFinal answer:",
+    "answer": "689"
+  },
+  {
+    "problem_id": "arith_5",
+    "category": "arithmetic",
+    "condition": "misleading_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: What is 8 + 5?\nHint: Add 8 and 5.\nFinal answer: 13<END>\n\nProblem: What is 7 * 8?\nHint: Multiply 7 by 8.\nFinal answer: 56<END>\n\nProblem: Calculate 14 + 75 * 9.\nHint: Start by adding 14 and 75 together to simplify the expression.\nFinal answer:",
+    "answer": "689"
+  },
+  {
+    "problem_id": "arith_6",
+    "category": "arithmetic",
+    "condition": "clean",
+    "prompt": "Continue the pattern exactly. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: What is 8 + 5?\nFinal answer: 13<END>\n\nProblem: What is 7 * 8?\nFinal answer: 56<END>\n\nProblem: Calculate 93 * 72 + 1.\nFinal answer:",
+    "answer": "6697"
+  },
+  {
+    "problem_id": "arith_6",
+    "category": "arithmetic",
+    "condition": "helpful_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: What is 8 + 5?\nHint: Add 8 and 5.\nFinal answer: 13<END>\n\nProblem: What is 7 * 8?\nHint: Multiply 7 by 8.\nFinal answer: 56<END>\n\nProblem: Calculate 93 * 72 + 1.\nHint: Break down 93 \u00d7 72 into (90 + 3) \u00d7 (70 + 2) using the distributive property.\nFinal answer:",
+    "answer": "6697"
+  },
+  {
+    "problem_id": "arith_6",
+    "category": "arithmetic",
+    "condition": "misleading_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: What is 8 + 5?\nHint: Add 8 and 5.\nFinal answer: 13<END>\n\nProblem: What is 7 * 8?\nHint: Multiply 7 by 8.\nFinal answer: 56<END>\n\nProblem: Calculate 93 * 72 + 1.\nHint: Add 1 to 72 first before multiplying to create a round number.\nFinal answer:",
+    "answer": "6697"
+  },
+  {
+    "problem_id": "logic_23",
+    "category": "logical",
+    "condition": "clean",
+    "prompt": "Continue the pattern exactly. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If all cats are mammals and all mammals breathe, do cats breathe?\nFinal answer: Yes<END>\n\nProblem: Which number is the odd one out: 2, 4, 7, 8?\nFinal answer: 7<END>\n\nProblem: Frank is taller than Bob. Bob is taller than Alice. Charlie is shorter than Alice. Who is the tallest among them?\nFinal answer:",
+    "answer": "Frank"
+  },
+  {
+    "problem_id": "logic_23",
+    "category": "logical",
+    "condition": "helpful_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If all cats are mammals and all mammals breathe, do cats breathe?\nHint: Combine the two statements transitively.\nFinal answer: Yes<END>\n\nProblem: Which number is the odd one out: 2, 4, 7, 8?\nHint: Identify which number does not share the same parity as the others.\nFinal answer: 7<END>\n\nProblem: Frank is taller than Bob. Bob is taller than Alice. Charlie is shorter than Alice. Who is the tallest among them?\nHint: Arrange the given height comparisons in a single ordered sequence to identify the tallest individual.\nFinal answer:",
+    "answer": "Frank"
+  },
+  {
+    "problem_id": "logic_23",
+    "category": "logical",
+    "condition": "misleading_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If all cats are mammals and all mammals breathe, do cats breathe?\nHint: Combine the two statements transitively.\nFinal answer: Yes<END>\n\nProblem: Which number is the odd one out: 2, 4, 7, 8?\nHint: Identify which number does not share the same parity as the others.\nFinal answer: 7<END>\n\nProblem: Frank is taller than Bob. Bob is taller than Alice. Charlie is shorter than Alice. Who is the tallest among them?\nHint: Focus on comparing Charlie's height directly to Frank's to determine the tallest person.\nFinal answer:",
+    "answer": "Frank"
+  },
+  {
+    "problem_id": "gsm8k_10",
+    "category": "word_problems",
+    "condition": "clean",
+    "prompt": "Continue the pattern exactly. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: Alice has 5 apples. She gives 2 to Bob. How many does Alice have left?\nFinal answer: 3<END>\n\nProblem: A train travels 60 km/h for 2 hours. How far does it go?\nFinal answer: 120 km<END>\n\nProblem: A deep-sea monster rises from the waters once every hundred years to feast on a ship and sate its hunger. Over three hundred years, it has consumed 847 people. Ships have been built larger over time, so each new ship has twice as many people as the last ship. How many people were on the ship the monster ate in the first hundred years?\nFinal answer:",
+    "answer": "121"
+  },
+  {
+    "problem_id": "gsm8k_10",
+    "category": "word_problems",
+    "condition": "helpful_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: Alice has 5 apples. She gives 2 to Bob. How many does Alice have left?\nHint: Subtract the apples she gave away from the number she started with.\nFinal answer: 3<END>\n\nProblem: A train travels 60 km/h for 2 hours. How far does it go?\nHint: Distance equals speed multiplied by time.\nFinal answer: 120 km<END>\n\nProblem: A deep-sea monster rises from the waters once every hundred years to feast on a ship and sate its hunger. Over three hundred years, it has consumed 847 people. Ships have been built larger over time, so each new ship has twice as many people as the last ship. How many people were on the ship the monster ate in the first hundred years?\nHint: The total number of people eaten forms a geometric series where each term doubles the previous one.\nFinal answer:",
+    "answer": "121"
+  },
+  {
+    "problem_id": "gsm8k_10",
+    "category": "word_problems",
+    "condition": "misleading_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: Alice has 5 apples. She gives 2 to Bob. How many does Alice have left?\nHint: Subtract the apples she gave away from the number she started with.\nFinal answer: 3<END>\n\nProblem: A train travels 60 km/h for 2 hours. How far does it go?\nHint: Distance equals speed multiplied by time.\nFinal answer: 120 km<END>\n\nProblem: A deep-sea monster rises from the waters once every hundred years to feast on a ship and sate its hunger. Over three hundred years, it has consumed 847 people. Ships have been built larger over time, so each new ship has twice as many people as the last ship. How many people were on the ship the monster ate in the first hundred years?\nHint: Assume the number of people per ship increases by a fixed amount each century instead of doubling.\nFinal answer:",
+    "answer": "121"
+  },
+  {
+    "problem_id": "logic_28",
+    "category": "logical",
+    "condition": "clean",
+    "prompt": "Continue the pattern exactly. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If all cats are mammals and all mammals breathe, do cats breathe?\nFinal answer: Yes<END>\n\nProblem: Which number is the odd one out: 2, 4, 7, 8?\nFinal answer: 7<END>\n\nProblem: Bob is taller than Alice. Alice is taller than Eve. Grace is shorter than Eve. Who is the tallest among them?\nFinal answer:",
+    "answer": "Bob"
+  },
+  {
+    "problem_id": "logic_28",
+    "category": "logical",
+    "condition": "helpful_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If all cats are mammals and all mammals breathe, do cats breathe?\nHint: Combine the two statements transitively.\nFinal answer: Yes<END>\n\nProblem: Which number is the odd one out: 2, 4, 7, 8?\nHint: Identify which number does not share the same parity as the others.\nFinal answer: 7<END>\n\nProblem: Bob is taller than Alice. Alice is taller than Eve. Grace is shorter than Eve. Who is the tallest among them?\nHint: Compare Bob and Alice's height first based on the direct comparison given.\nFinal answer:",
+    "answer": "Bob"
+  },
+  {
+    "problem_id": "logic_28",
+    "category": "logical",
+    "condition": "misleading_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If all cats are mammals and all mammals breathe, do cats breathe?\nHint: Combine the two statements transitively.\nFinal answer: Yes<END>\n\nProblem: Which number is the odd one out: 2, 4, 7, 8?\nHint: Identify which number does not share the same parity as the others.\nFinal answer: 7<END>\n\nProblem: Bob is taller than Alice. Alice is taller than Eve. Grace is shorter than Eve. Who is the tallest among them?\nHint: Focus on Grace and Eve's relationship since it's the only indirect comparison.\nFinal answer:",
+    "answer": "Bob"
+  },
+  {
+    "problem_id": "logic_29",
+    "category": "logical",
+    "condition": "clean",
+    "prompt": "Continue the pattern exactly. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If all cats are mammals and all mammals breathe, do cats breathe?\nFinal answer: Yes<END>\n\nProblem: Which number is the odd one out: 2, 4, 7, 8?\nFinal answer: 7<END>\n\nProblem: Eve is taller than Charlie. Charlie is taller than Alice. Frank is shorter than Alice. Who is the tallest among them?\nFinal answer:",
+    "answer": "Eve"
+  },
+  {
+    "problem_id": "logic_29",
+    "category": "logical",
+    "condition": "helpful_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If all cats are mammals and all mammals breathe, do cats breathe?\nHint: Combine the two statements transitively.\nFinal answer: Yes<END>\n\nProblem: Which number is the odd one out: 2, 4, 7, 8?\nHint: Identify which number does not share the same parity as the others.\nFinal answer: 7<END>\n\nProblem: Eve is taller than Charlie. Charlie is taller than Alice. Frank is shorter than Alice. Who is the tallest among them?\nHint: Compare Eve and Charlie first, then add Alice and Frank to the hierarchy.\nFinal answer:",
+    "answer": "Eve"
+  },
+  {
+    "problem_id": "logic_29",
+    "category": "logical",
+    "condition": "misleading_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If all cats are mammals and all mammals breathe, do cats breathe?\nHint: Combine the two statements transitively.\nFinal answer: Yes<END>\n\nProblem: Which number is the odd one out: 2, 4, 7, 8?\nHint: Identify which number does not share the same parity as the others.\nFinal answer: 7<END>\n\nProblem: Eve is taller than Charlie. Charlie is taller than Alice. Frank is shorter than Alice. Who is the tallest among them?\nHint: Since Frank is shorter than Alice, focus on comparing Frank and Charlie to determine the tallest.\nFinal answer:",
+    "answer": "Eve"
+  },
+  {
+    "problem_id": "symb_3",
+    "category": "symbolic",
+    "condition": "clean",
+    "prompt": "Continue the pattern exactly. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If x + 3 = 7, what is x?\nFinal answer: 4<END>\n\nProblem: Simplify: 2(x + 3) - x\nFinal answer: x + 6<END>\n\nProblem: Reverse the string 'gdzav' and concatenate it with the original string 'gdzav'.\nFinal answer:",
+    "answer": "vazdggdzav"
+  },
+  {
+    "problem_id": "symb_3",
+    "category": "symbolic",
+    "condition": "helpful_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If x + 3 = 7, what is x?\nHint: Undo the +3 operation.\nFinal answer: 4<END>\n\nProblem: Simplify: 2(x + 3) - x\nHint: Distribute 2 across the parentheses, then combine like terms.\nFinal answer: x + 6<END>\n\nProblem: Reverse the string 'gdzav' and concatenate it with the original string 'gdzav'.\nHint: Begin by reversing the original string 'gdzav' before concatenating it with the original.\nFinal answer:",
+    "answer": "vazdggdzav"
+  },
+  {
+    "problem_id": "symb_3",
+    "category": "symbolic",
+    "condition": "misleading_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If x + 3 = 7, what is x?\nHint: Undo the +3 operation.\nFinal answer: 4<END>\n\nProblem: Simplify: 2(x + 3) - x\nHint: Distribute 2 across the parentheses, then combine like terms.\nFinal answer: x + 6<END>\n\nProblem: Reverse the string 'gdzav' and concatenate it with the original string 'gdzav'.\nHint: Append the original string to itself first, then reverse the combined result.\nFinal answer:",
+    "answer": "vazdggdzav"
+  },
+  {
+    "problem_id": "gsm8k_16",
+    "category": "word_problems",
+    "condition": "clean",
+    "prompt": "Continue the pattern exactly. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: Alice has 5 apples. She gives 2 to Bob. How many does Alice have left?\nFinal answer: 3<END>\n\nProblem: A train travels 60 km/h for 2 hours. How far does it go?\nFinal answer: 120 km<END>\n\nProblem: The profit from a business transaction is shared among 2 business partners, Mike and Johnson in the ratio 2:5 respectively. If Johnson got $2500, how much will Mike have after spending some of his share on a shirt that costs $200?\nFinal answer:",
+    "answer": "800"
+  },
+  {
+    "problem_id": "gsm8k_16",
+    "category": "word_problems",
+    "condition": "helpful_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: Alice has 5 apples. She gives 2 to Bob. How many does Alice have left?\nHint: Subtract the apples she gave away from the number she started with.\nFinal answer: 3<END>\n\nProblem: A train travels 60 km/h for 2 hours. How far does it go?\nHint: Distance equals speed multiplied by time.\nFinal answer: 120 km<END>\n\nProblem: The profit from a business transaction is shared among 2 business partners, Mike and Johnson in the ratio 2:5 respectively. If Johnson got $2500, how much will Mike have after spending some of his share on a shirt that costs $200?\nHint: Determine Mike's original share by dividing Johnson's amount by 5 and multiplying by 2.\nFinal answer:",
+    "answer": "800"
+  },
+  {
+    "problem_id": "gsm8k_16",
+    "category": "word_problems",
+    "condition": "misleading_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: Alice has 5 apples. She gives 2 to Bob. How many does Alice have left?\nHint: Subtract the apples she gave away from the number she started with.\nFinal answer: 3<END>\n\nProblem: A train travels 60 km/h for 2 hours. How far does it go?\nHint: Distance equals speed multiplied by time.\nFinal answer: 120 km<END>\n\nProblem: The profit from a business transaction is shared among 2 business partners, Mike and Johnson in the ratio 2:5 respectively. If Johnson got $2500, how much will Mike have after spending some of his share on a shirt that costs $200?\nHint: Divide Johnson's total by the sum of the ratio parts to find each part's value.\nFinal answer:",
+    "answer": "800"
+  },
+  {
+    "problem_id": "gsm8k_11",
+    "category": "word_problems",
+    "condition": "clean",
+    "prompt": "Continue the pattern exactly. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: Alice has 5 apples. She gives 2 to Bob. How many does Alice have left?\nFinal answer: 3<END>\n\nProblem: A train travels 60 km/h for 2 hours. How far does it go?\nFinal answer: 120 km<END>\n\nProblem: Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past three months. He gets a $5 allowance a month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 in change. If he mows 4 lawns, how many driveways did he shovel?\nFinal answer:",
+    "answer": "5"
+  },
+  {
+    "problem_id": "gsm8k_11",
+    "category": "word_problems",
+    "condition": "helpful_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: Alice has 5 apples. She gives 2 to Bob. How many does Alice have left?\nHint: Subtract the apples she gave away from the number she started with.\nFinal answer: 3<END>\n\nProblem: A train travels 60 km/h for 2 hours. How far does it go?\nHint: Distance equals speed multiplied by time.\nFinal answer: 120 km<END>\n\nProblem: Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past three months. He gets a $5 allowance a month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 in change. If he mows 4 lawns, how many driveways did he shovel?\nHint: Calculate Tobias's total earnings by combining his allowance, lawn mowing revenue, and shovel jobs, then subtract the shoes cost and remaining change to find the shovel earnings.\nFinal answer:",
+    "answer": "5"
+  },
+  {
+    "problem_id": "gsm8k_11",
+    "category": "word_problems",
+    "condition": "misleading_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: Alice has 5 apples. She gives 2 to Bob. How many does Alice have left?\nHint: Subtract the apples she gave away from the number she started with.\nFinal answer: 3<END>\n\nProblem: A train travels 60 km/h for 2 hours. How far does it go?\nHint: Distance equals speed multiplied by time.\nFinal answer: 120 km<END>\n\nProblem: Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past three months. He gets a $5 allowance a month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 in change. If he mows 4 lawns, how many driveways did he shovel?\nHint: Assume the $15 change equals his total allowance money and ignore the lawn mowing earnings when calculating shovel jobs.\nFinal answer:",
+    "answer": "5"
+  },
+  {
+    "problem_id": "symb_10",
+    "category": "symbolic",
+    "condition": "clean",
+    "prompt": "Continue the pattern exactly. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If x + 3 = 7, what is x?\nFinal answer: 4<END>\n\nProblem: Simplify: 2(x + 3) - x\nFinal answer: x + 6<END>\n\nProblem: Reverse the string 'guqvf' and concatenate it with the original string 'guqvf'.\nFinal answer:",
+    "answer": "fvqugguqvf"
+  },
+  {
+    "problem_id": "symb_10",
+    "category": "symbolic",
+    "condition": "helpful_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If x + 3 = 7, what is x?\nHint: Undo the +3 operation.\nFinal answer: 4<END>\n\nProblem: Simplify: 2(x + 3) - x\nHint: Distribute 2 across the parentheses, then combine like terms.\nFinal answer: x + 6<END>\n\nProblem: Reverse the string 'guqvf' and concatenate it with the original string 'guqvf'.\nHint: Reverse each character's order in the string 'guqvf' and then join it with the original sequence.\nFinal answer:",
+    "answer": "fvqugguqvf"
+  },
+  {
+    "problem_id": "symb_10",
+    "category": "symbolic",
+    "condition": "misleading_hint",
+    "prompt": "Continue the pattern exactly. Each problem includes a hint. Solve the final problem and output one line in the form \"Final answer: <answer><END>\". Do not write an explanation. Do not write another problem.\n\nProblem: If x + 3 = 7, what is x?\nHint: Undo the +3 operation.\nFinal answer: 4<END>\n\nProblem: Simplify: 2(x + 3) - x\nHint: Distribute 2 across the parentheses, then combine like terms.\nFinal answer: x + 6<END>\n\nProblem: Reverse the string 'guqvf' and concatenate it with the original string 'guqvf'.\nHint: Remove the last character of 'guqvf' and append it to the beginning before merging with the original.\nFinal answer:",
+    "answer": "fvqugguqvf"
+  }
+]

@@ -1,0 +1,10 @@
+# Model config group — Qwen3-1.7B
+# Override from CLI: model=qwen3_1_7b  (default)
+# or swap entirely:  model=some_other_group
+
+name: "Qwen/Qwen3-1.7B" # HuggingFace model ID
+dtype: "float32" # float16 for speed
+device: "auto" # auto | cuda | cpu
+max_new_tokens: 512
+temperature: 0.0 # 0.0 = greedy decoding for reproducibility
+repetition_penalty: 1.2 # >=1.0, 1.0 = no penalty

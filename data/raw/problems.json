@@ -1,0 +1,602 @@
+[
+  {
+    "id": "arith_5",
+    "category": "arithmetic",
+    "question": "Calculate 14 + 75 * 9.",
+    "answer": "689"
+  },
+  {
+    "id": "arith_6",
+    "category": "arithmetic",
+    "question": "Calculate 93 * 72 + 1.",
+    "answer": "6697"
+  },
+  {
+    "id": "logic_23",
+    "category": "logical",
+    "question": "Frank is taller than Bob. Bob is taller than Alice. Charlie is shorter than Alice. Who is the tallest among them?",
+    "answer": "Frank"
+  },
+  {
+    "id": "gsm8k_10",
+    "category": "word_problems",
+    "question": "A deep-sea monster rises from the waters once every hundred years to feast on a ship and sate its hunger. Over three hundred years, it has consumed 847 people. Ships have been built larger over time, so each new ship has twice as many people as the last ship. How many people were on the ship the monster ate in the first hundred years?",
+    "answer": "121"
+  },
+  {
+    "id": "logic_28",
+    "category": "logical",
+    "question": "Bob is taller than Alice. Alice is taller than Eve. Grace is shorter than Eve. Who is the tallest among them?",
+    "answer": "Bob"
+  },
+  {
+    "id": "logic_29",
+    "category": "logical",
+    "question": "Eve is taller than Charlie. Charlie is taller than Alice. Frank is shorter than Alice. Who is the tallest among them?",
+    "answer": "Eve"
+  },
+  {
+    "id": "symb_3",
+    "category": "symbolic",
+    "question": "Reverse the string 'gdzav' and concatenate it with the original string 'gdzav'.",
+    "answer": "vazdggdzav"
+  },
+  {
+    "id": "gsm8k_16",
+    "category": "word_problems",
+    "question": "The profit from a business transaction is shared among 2 business partners, Mike and Johnson in the ratio 2:5 respectively. If Johnson got $2500, how much will Mike have after spending some of his share on a shirt that costs $200?",
+    "answer": "800"
+  },
+  {
+    "id": "gsm8k_11",
+    "category": "word_problems",
+    "question": "Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past three months. He gets a $5 allowance a month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 in change. If he mows 4 lawns, how many driveways did he shovel?",
+    "answer": "5"
+  },
+  {
+    "id": "symb_10",
+    "category": "symbolic",
+    "question": "Reverse the string 'guqvf' and concatenate it with the original string 'guqvf'.",
+    "answer": "fvqugguqvf"
+  },
+  {
+    "id": "logic_3",
+    "category": "logical",
+    "question": "Frank is taller than Bob. Bob is taller than Eve. Grace is shorter than Eve. Who is the tallest among them?",
+    "answer": "Frank"
+  },
+  {
+    "id": "logic_1",
+    "category": "logical",
+    "question": "David is taller than Bob. Bob is taller than Eve. Charlie is shorter than Eve. Who is the tallest among them?",
+    "answer": "David"
+  },
+  {
+    "id": "symb_4",
+    "category": "symbolic",
+    "question": "Reverse the string 'gltve' and concatenate it with the original string 'gltve'.",
+    "answer": "evtlggltve"
+  },
+  {
+    "id": "gsm8k_4",
+    "category": "word_problems",
+    "question": "James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?",
+    "answer": "624"
+  },
+  {
+    "id": "gsm8k_13",
+    "category": "word_problems",
+    "question": "Jasper will serve charcuterie at his dinner party. He buys 2 pounds of cheddar cheese for $10, a pound of cream cheese that cost half the price of the cheddar cheese, and a pack of cold cuts that cost twice the price of the cheddar cheese. How much does he spend on the ingredients?",
+    "answer": "35"
+  },
+  {
+    "id": "logic_12",
+    "category": "logical",
+    "question": "Charlie is taller than Eve. Eve is taller than Frank. Bob is shorter than Frank. Who is the tallest among them?",
+    "answer": "Charlie"
+  },
+  {
+    "id": "arith_19",
+    "category": "arithmetic",
+    "question": "Calculate 94 - 64 * 5.",
+    "answer": "-226"
+  },
+  {
+    "id": "symb_17",
+    "category": "symbolic",
+    "question": "Reverse the string 'ipmvm' and concatenate it with the original string 'ipmvm'.",
+    "answer": "mvmpiipmvm"
+  },
+  {
+    "id": "logic_6",
+    "category": "logical",
+    "question": "Alice is taller than Eve. Eve is taller than Charlie. Frank is shorter than Charlie. Who is the tallest among them?",
+    "answer": "Alice"
+  },
+  {
+    "id": "gsm8k_18",
+    "category": "word_problems",
+    "question": "It takes Roque two hours to walk to work and one hour to ride his bike to work. Roque walks to and from work three times a week and rides his bike to and from work twice a week. How many hours in total does he take to get to and from work a week with walking and biking?",
+    "answer": "16"
+  },
+  {
+    "id": "symb_8",
+    "category": "symbolic",
+    "question": "Reverse the string 'tmeyz' and concatenate it with the original string 'tmeyz'.",
+    "answer": "zyemttmeyz"
+  },
+  {
+    "id": "logic_26",
+    "category": "logical",
+    "question": "Charlie is taller than Alice. Alice is taller than Bob. Eve is shorter than Bob. Who is the tallest among them?",
+    "answer": "Charlie"
+  },
+  {
+    "id": "logic_0",
+    "category": "logical",
+    "question": "David is taller than Eve. Eve is taller than Grace. Alice is shorter than Grace. Who is the tallest among them?",
+    "answer": "David"
+  },
+  {
+    "id": "arith_12",
+    "category": "arithmetic",
+    "question": "Calculate 39 + 26 * 5.",
+    "answer": "169"
+  },
+  {
+    "id": "symb_12",
+    "category": "symbolic",
+    "question": "Reverse the string 'wzzbz' and concatenate it with the original string 'wzzbz'.",
+    "answer": "zbzzwwzzbz"
+  },
+  {
+    "id": "arith_4",
+    "category": "arithmetic",
+    "question": "Calculate 36 - 84 * 6.",
+    "answer": "-468"
+  },
+  {
+    "id": "symb_16",
+    "category": "symbolic",
+    "question": "Reverse the string 'dojim' and concatenate it with the original string 'dojim'.",
+    "answer": "mijoddojim"
+  },
+  {
+    "id": "arith_11",
+    "category": "arithmetic",
+    "question": "Calculate 76 - 27 * 8.",
+    "answer": "-140"
+  },
+  {
+    "id": "arith_3",
+    "category": "arithmetic",
+    "question": "Calculate 42 - 49 * 7.",
+    "answer": "-301"
+  },
+  {
+    "id": "arith_18",
+    "category": "arithmetic",
+    "question": "Calculate 68 + 25 * 4.",
+    "answer": "168"
+  },
+  {
+    "id": "gsm8k_21",
+    "category": "word_problems",
+    "question": "Each bird eats 12 beetles per day, each snake eats 3 birds per day, and each jaguar eats 5 snakes per day. If there are 6 jaguars in a forest, how many beetles are eaten each day?",
+    "answer": "1080"
+  },
+  {
+    "id": "logic_5",
+    "category": "logical",
+    "question": "Bob is taller than Grace. Grace is taller than Alice. Charlie is shorter than Alice. Who is the tallest among them?",
+    "answer": "Bob"
+  },
+  {
+    "id": "gsm8k_12",
+    "category": "word_problems",
+    "question": "Randy has 60 mango trees on his farm. He also has 5 less than half as many coconut trees as mango trees. How many trees does Randy have in all on his farm?",
+    "answer": "85"
+  },
+  {
+    "id": "gsm8k_20",
+    "category": "word_problems",
+    "question": "Bella bought stamps at the post office. Some of the stamps had a snowflake design, some had a truck design, and some had a rose design. Bella bought 11 snowflake stamps. She bought 9 more truck stamps than snowflake stamps, and 13 fewer rose stamps than truck stamps. How many stamps did Bella buy in all?",
+    "answer": "38"
+  },
+  {
+    "id": "gsm8k_5",
+    "category": "word_problems",
+    "question": "Mark has a garden with flowers. He planted plants of three different colors in it. Ten of them are yellow, and there are 80% more of those in purple. There are only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark have in his garden?",
+    "answer": "35"
+  },
+  {
+    "id": "logic_13",
+    "category": "logical",
+    "question": "Frank is taller than Bob. Bob is taller than David. Alice is shorter than David. Who is the tallest among them?",
+    "answer": "Frank"
+  },
+  {
+    "id": "symb_18",
+    "category": "symbolic",
+    "question": "Reverse the string 'hbusp' and concatenate it with the original string 'hbusp'.",
+    "answer": "psubhhbusp"
+  },
+  {
+    "id": "arith_9",
+    "category": "arithmetic",
+    "question": "Calculate 68 + 57 * 2.",
+    "answer": "182"
+  },
+  {
+    "id": "gsm8k_22",
+    "category": "word_problems",
+    "question": "Samantha\u2019s last name has three fewer letters than Bobbie\u2019s last name. If Bobbie took two letters off her last name, she would have a last name twice the length of Jamie\u2019s. Jamie\u2019s full name is Jamie Grey. How many letters are in Samantha\u2019s last name?",
+    "answer": "7"
+  },
+  {
+    "id": "symb_2",
+    "category": "symbolic",
+    "question": "Reverse the string 'vgsxr' and concatenate it with the original string 'vgsxr'.",
+    "answer": "rxsgvvgsxr"
+  },
+  {
+    "id": "logic_10",
+    "category": "logical",
+    "question": "Charlie is taller than Grace. Grace is taller than Bob. Frank is shorter than Bob. Who is the tallest among them?",
+    "answer": "Charlie"
+  },
+  {
+    "id": "symb_9",
+    "category": "symbolic",
+    "question": "Reverse the string 'dusyp' and concatenate it with the original string 'dusyp'.",
+    "answer": "pysuddusyp"
+  },
+  {
+    "id": "gsm8k_14",
+    "category": "word_problems",
+    "question": "Joy can read 8 pages of a book in 20 minutes. How many hours will it take her to read 120 pages?",
+    "answer": "5"
+  },
+  {
+    "id": "symb_14",
+    "category": "symbolic",
+    "question": "Reverse the string 'fjovj' and concatenate it with the original string 'fjovj'.",
+    "answer": "jvojffjovj"
+  },
+  {
+    "id": "gsm8k_9",
+    "category": "word_problems",
+    "question": "Tina makes $18.00 an hour.  If she works more than 8 hours per shift, she is eligible for overtime, which is paid by your hourly wage + 1/2 your hourly wage.  If she works 10 hours every day for 5 days, how much money does she make?",
+    "answer": "990"
+  },
+  {
+    "id": "arith_14",
+    "category": "arithmetic",
+    "question": "Calculate 51 - 12 * 3.",
+    "answer": "15"
+  },
+  {
+    "id": "logic_20",
+    "category": "logical",
+    "question": "Grace is taller than Bob. Bob is taller than Charlie. David is shorter than Charlie. Who is the tallest among them?",
+    "answer": "Grace"
+  },
+  {
+    "id": "gsm8k_24",
+    "category": "word_problems",
+    "question": "Mary does her grocery shopping on Saturday. She does her shopping only at a specific store where she is allowed a credit of $100, which must be paid in full before her next shopping trip. That week she spent the full credit limit and paid $15 of it on Tuesday and $23 of it on Thursday. How much credit will Mary need to pay before her next shopping trip?",
+    "answer": "62"
+  },
+  {
+    "id": "logic_8",
+    "category": "logical",
+    "question": "Grace is taller than Bob. Bob is taller than Charlie. Frank is shorter than Charlie. Who is the tallest among them?",
+    "answer": "Grace"
+  },
+  {
+    "id": "arith_7",
+    "category": "arithmetic",
+    "question": "Calculate 68 - 97 * 9.",
+    "answer": "-805"
+  },
+  {
+    "id": "logic_21",
+    "category": "logical",
+    "question": "Alice is taller than Charlie. Charlie is taller than Frank. Bob is shorter than Frank. Who is the tallest among them?",
+    "answer": "Alice"
+  },
+  {
+    "id": "gsm8k_27",
+    "category": "word_problems",
+    "question": "Brennan was researching his school project and had to download files from the internet to his computer to use for reference. After downloading 800 files, he deleted 70% of them because they were not helpful. He downloaded 400 more files but again realized that 3/5 of them were irrelevant. How many valuable files was he left with after deleting the unrelated files he downloaded in the second round?",
+    "answer": "400"
+  },
+  {
+    "id": "logic_7",
+    "category": "logical",
+    "question": "Charlie is taller than David. David is taller than Frank. Bob is shorter than Frank. Who is the tallest among them?",
+    "answer": "Charlie"
+  },
+  {
+    "id": "arith_15",
+    "category": "arithmetic",
+    "question": "Calculate 69 * 98 + 4.",
+    "answer": "6766"
+  },
+  {
+    "id": "gsm8k_6",
+    "category": "word_problems",
+    "question": "Albert is wondering how much pizza he can eat in one day. He buys 2 large pizzas and 2 small pizzas. A large pizza has 16 slices and a small pizza has 8 slices. If he eats it all, how many pieces does he eat that day?",
+    "answer": "48"
+  },
+  {
+    "id": "arith_17",
+    "category": "arithmetic",
+    "question": "Calculate 71 + 11 * 5.",
+    "answer": "126"
+  },
+  {
+    "id": "logic_14",
+    "category": "logical",
+    "question": "Charlie is taller than Grace. Grace is taller than David. Frank is shorter than David. Who is the tallest among them?",
+    "answer": "Charlie"
+  },
+  {
+    "id": "logic_27",
+    "category": "logical",
+    "question": "David is taller than Eve. Eve is taller than Frank. Bob is shorter than Frank. Who is the tallest among them?",
+    "answer": "David"
+  },
+  {
+    "id": "logic_25",
+    "category": "logical",
+    "question": "Alice is taller than Charlie. Charlie is taller than Grace. David is shorter than Grace. Who is the tallest among them?",
+    "answer": "Alice"
+  },
+  {
+    "id": "symb_0",
+    "category": "symbolic",
+    "question": "Reverse the string 'ebkmw' and concatenate it with the original string 'ebkmw'.",
+    "answer": "wmkbeebkmw"
+  },
+  {
+    "id": "gsm8k_28",
+    "category": "word_problems",
+    "question": "There are 5 houses on a street, and each of the first four houses has 3 gnomes in the garden. If there are a total of 20 gnomes on the street, how many gnomes does the fifth house have?",
+    "answer": "8"
+  },
+  {
+    "id": "gsm8k_3",
+    "category": "word_problems",
+    "question": "Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?",
+    "answer": "42"
+  },
+  {
+    "id": "logic_15",
+    "category": "logical",
+    "question": "Grace is taller than David. David is taller than Alice. Charlie is shorter than Alice. Who is the tallest among them?",
+    "answer": "Grace"
+  },
+  {
+    "id": "gsm8k_7",
+    "category": "word_problems",
+    "question": "Ken created a care package to send to his brother, who was away at boarding school.  Ken placed a box on a scale, and then he poured into the box enough jelly beans to bring the weight to 2 pounds.  Then, he added enough brownies to cause the weight to triple.  Next, he added another 2 pounds of jelly beans.  And finally, he added enough gummy worms to double the weight once again.  What was the final weight of the box of goodies, in pounds?",
+    "answer": "16"
+  },
+  {
+    "id": "symb_13",
+    "category": "symbolic",
+    "question": "Reverse the string 'mtlvv' and concatenate it with the original string 'mtlvv'.",
+    "answer": "vvltmmtlvv"
+  },
+  {
+    "id": "arith_10",
+    "category": "arithmetic",
+    "question": "Calculate 98 * 80 + 5.",
+    "answer": "7845"
+  },
+  {
+    "id": "logic_24",
+    "category": "logical",
+    "question": "Grace is taller than Alice. Alice is taller than David. Frank is shorter than David. Who is the tallest among them?",
+    "answer": "Grace"
+  },
+  {
+    "id": "gsm8k_1",
+    "category": "word_problems",
+    "question": "Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?",
+    "answer": "10"
+  },
+  {
+    "id": "arith_13",
+    "category": "arithmetic",
+    "question": "Calculate 93 * 14 + 8.",
+    "answer": "1310"
+  },
+  {
+    "id": "gsm8k_19",
+    "category": "word_problems",
+    "question": "Tim rides his bike back and forth to work for each of his 5 workdays.  His work is 20 miles away.  He also goes for a weekend bike ride of 200 miles.    If he can bike at 25 mph how much time does he spend biking a week?",
+    "answer": "16"
+  },
+  {
+    "id": "logic_2",
+    "category": "logical",
+    "question": "Bob is taller than David. David is taller than Grace. Frank is shorter than Grace. Who is the tallest among them?",
+    "answer": "Bob"
+  },
+  {
+    "id": "arith_1",
+    "category": "arithmetic",
+    "question": "Calculate 88 * 92 + 3.",
+    "answer": "8099"
+  },
+  {
+    "id": "gsm8k_23",
+    "category": "word_problems",
+    "question": "Ann's favorite store was having a summer clearance. For $75 she bought 5 pairs of shorts for $7 each and 2 pairs of shoes for $10 each. She also bought 4 tops, all at the same price. How much did each top cost?",
+    "answer": "5"
+  },
+  {
+    "id": "arith_16",
+    "category": "arithmetic",
+    "question": "Calculate 52 * 40 + 7.",
+    "answer": "2087"
+  },
+  {
+    "id": "logic_19",
+    "category": "logical",
+    "question": "Bob is taller than Eve. Eve is taller than Alice. David is shorter than Alice. Who is the tallest among them?",
+    "answer": "Bob"
+  },
+  {
+    "id": "symb_6",
+    "category": "symbolic",
+    "question": "Reverse the string 'wbtwh' and concatenate it with the original string 'wbtwh'.",
+    "answer": "hwtbwwbtwh"
+  },
+  {
+    "id": "gsm8k_26",
+    "category": "word_problems",
+    "question": "Jack is stranded on a desert island. He wants some salt to season his fish. He collects 2 liters of seawater in an old bucket. If the water is 20% salt, how many ml of salt will Jack get when all the water evaporates?",
+    "answer": "400"
+  },
+  {
+    "id": "logic_9",
+    "category": "logical",
+    "question": "Alice is taller than David. David is taller than Charlie. Eve is shorter than Charlie. Who is the tallest among them?",
+    "answer": "Alice"
+  },
+  {
+    "id": "gsm8k_0",
+    "category": "word_problems",
+    "question": "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?",
+    "answer": "72"
+  },
+  {
+    "id": "arith_8",
+    "category": "arithmetic",
+    "question": "Calculate 50 - 73 * 2.",
+    "answer": "-96"
+  },
+  {
+    "id": "gsm8k_15",
+    "category": "word_problems",
+    "question": "James creates a media empire.  He creates a movie for $2000.  Each DVD cost $6 to make.  He sells it for 2.5 times that much.  He sells 500 movies a day for 5 days a week.  How much profit does he make in 20 weeks?",
+    "answer": "448000"
+  },
+  {
+    "id": "gsm8k_17",
+    "category": "word_problems",
+    "question": "In a truck, there are 26 pink hard hats, 15 green hard hats, and 24 yellow hard hats.  If Carl takes away 4 pink hard hats, and John takes away 6 pink hard hats and twice as many green hard hats as the number of pink hard hats that he removed, then calculate the total number of hard hats that remained in the truck.",
+    "answer": "43"
+  },
+  {
+    "id": "logic_17",
+    "category": "logical",
+    "question": "David is taller than Frank. Frank is taller than Eve. Alice is shorter than Eve. Who is the tallest among them?",
+    "answer": "David"
+  },
+  {
+    "id": "symb_19",
+    "category": "symbolic",
+    "question": "Reverse the string 'zoxfk' and concatenate it with the original string 'zoxfk'.",
+    "answer": "kfxozzoxfk"
+  },
+  {
+    "id": "gsm8k_8",
+    "category": "word_problems",
+    "question": "Alexis is applying for a new job and bought a new set of business clothes to wear to the interview. She went to a department store with a budget of $200 and spent $30 on a button-up shirt, $46 on suit pants, $38 on a suit coat, $11 on socks, and $18 on a belt. She also purchased a pair of shoes, but lost the receipt for them. She has $16 left from her budget. How much did Alexis pay for the shoes?",
+    "answer": "41"
+  },
+  {
+    "id": "gsm8k_29",
+    "category": "word_problems",
+    "question": "Mrs. Snyder used to spend 40% of her monthly income on rent and utilities. Her salary was recently increased by $600 so now her rent and utilities only amount to 25% of her monthly income. How much was her previous monthly income?",
+    "answer": "1000"
+  },
+  {
+    "id": "symb_5",
+    "category": "symbolic",
+    "question": "Reverse the string 'rhsva' and concatenate it with the original string 'rhsva'.",
+    "answer": "avshrrhsva"
+  },
+  {
+    "id": "symb_11",
+    "category": "symbolic",
+    "question": "Reverse the string 'kartl' and concatenate it with the original string 'kartl'.",
+    "answer": "ltrakkartl"
+  },
+  {
+    "id": "gsm8k_2",
+    "category": "word_problems",
+    "question": "Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?",
+    "answer": "5"
+  },
+  {
+    "id": "logic_18",
+    "category": "logical",
+    "question": "Grace is taller than David. David is taller than Alice. Charlie is shorter than Alice. Who is the tallest among them?",
+    "answer": "Grace"
+  },
+  {
+    "id": "logic_22",
+    "category": "logical",
+    "question": "Eve is taller than Alice. Alice is taller than Bob. Grace is shorter than Bob. Who is the tallest among them?",
+    "answer": "Eve"
+  },
+  {
+    "id": "logic_16",
+    "category": "logical",
+    "question": "Charlie is taller than Grace. Grace is taller than Bob. Eve is shorter than Bob. Who is the tallest among them?",
+    "answer": "Charlie"
+  },
+  {
+    "id": "symb_15",
+    "category": "symbolic",
+    "question": "Reverse the string 'tnfen' and concatenate it with the original string 'tnfen'.",
+    "answer": "nefnttnfen"
+  },
+  {
+    "id": "symb_7",
+    "category": "symbolic",
+    "question": "Reverse the string 'bdifw' and concatenate it with the original string 'bdifw'.",
+    "answer": "wfidbbdifw"
+  },
+  {
+    "id": "logic_11",
+    "category": "logical",
+    "question": "Eve is taller than Frank. Frank is taller than Alice. Bob is shorter than Alice. Who is the tallest among them?",
+    "answer": "Eve"
+  },
+  {
+    "id": "gsm8k_25",
+    "category": "word_problems",
+    "question": "Ralph is going to practice playing tennis with a tennis ball machine that shoots out tennis balls for Ralph to hit. He loads up the machine with 175 tennis balls to start with. Out of the first 100 balls, he manages to hit 2/5 of them. Of the next 75 tennis balls, he manages to hit 1/3 of them. Out of all the tennis balls, how many did Ralph not hit?",
+    "answer": "110"
+  },
+  {
+    "id": "arith_2",
+    "category": "arithmetic",
+    "question": "Calculate 18 + 24 * 2.",
+    "answer": "66"
+  },
+  {
+    "id": "arith_0",
+    "category": "arithmetic",
+    "question": "Calculate 40 * 78 + 8.",
+    "answer": "3128"
+  },
+  {
+    "id": "logic_4",
+    "category": "logical",
+    "question": "Charlie is taller than Grace. Grace is taller than Bob. David is shorter than Bob. Who is the tallest among them?",
+    "answer": "Charlie"
+  },
+  {
+    "id": "symb_1",
+    "category": "symbolic",
+    "question": "Reverse the string 'oprbm' and concatenate it with the original string 'oprbm'.",
+    "answer": "mbrpooprbm"
+  }
+]

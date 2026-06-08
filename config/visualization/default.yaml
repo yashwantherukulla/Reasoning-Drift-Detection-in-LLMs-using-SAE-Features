@@ -1,0 +1,6 @@
+# Visualization config group — figure output settings
+# Override from CLI: visualization.dpi=300 visualization.figure_format=pdf  etc.
+
+output_dir: "results/figures/"
+dpi: 150
+figure_format: "png"    # Primary format; "pdf" also saved for publication quality

@@ -1,0 +1,10 @@
+# SAE config group — Official Qwen-Scope Top-K SAE checkpoint
+# Override from CLI: sae.top_k_features=100  etc.
+
+source: "huggingface"
+hf_repo: "Qwen/SAE-Res-Qwen3-1.7B-Base-W32K-L0_50"
+layers_to_analyze: [6, 12, 18, 20, 24, 27]   # Subset of Qwen3's 28 layers;
+                                               # 18-22 are mid-late layers where
+                                               # reasoning tends to crystallize
+top_k_features: 50                            # Top-K features per token position
+                                               # (fixed by SAE training, not free)

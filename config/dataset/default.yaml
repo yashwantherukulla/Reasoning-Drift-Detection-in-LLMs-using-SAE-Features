@@ -1,0 +1,20 @@
+# Dataset config group — problem curation and path settings
+# Override from CLI: dataset.n_problems=50  dataset.gsm8k_source=openai/gsm8k  etc.
+
+problems_path: "data/raw/problems.json"
+prompts_path: "data/processed/prompts.json"
+outputs_path: "data/processed/outputs.json"
+n_problems: 100
+overwrite_prompts: false
+
+categories:
+  arithmetic: 20
+  word_problems: 30
+  logical: 30
+  symbolic: 20
+
+gsm8k_source: "openai/gsm8k" # HuggingFace dataset ID for sourcing word problems
+
+# Hint generation
+hint_model: "qwen/qwen3-32b" # Groq model used by hint_generator.py
+hint_temperature: 0.7

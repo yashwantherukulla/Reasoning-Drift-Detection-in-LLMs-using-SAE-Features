@@ -1,0 +1,212 @@
+[
+  {
+    "problem_id": "arith_5",
+    "condition": "clean",
+    "model_answer": "729",
+    "gold_answer": "689",
+    "prompt_len": 92
+  },
+  {
+    "problem_id": "arith_5",
+    "condition": "helpful_hint",
+    "model_answer": "691",
+    "gold_answer": "689",
+    "prompt_len": 139
+  },
+  {
+    "problem_id": "arith_5",
+    "condition": "misleading_hint",
+    "model_answer": "751",
+    "gold_answer": "689",
+    "prompt_len": 138
+  },
+  {
+    "problem_id": "arith_6",
+    "condition": "clean",
+    "model_answer": "6637",
+    "gold_answer": "6697",
+    "prompt_len": 92
+  },
+  {
+    "problem_id": "arith_6",
+    "condition": "helpful_hint",
+    "model_answer": "6603",
+    "gold_answer": "6697",
+    "prompt_len": 151
+  },
+  {
+    "problem_id": "arith_6",
+    "condition": "misleading_hint",
+    "model_answer": "6577",
+    "gold_answer": "6697",
+    "prompt_len": 135
+  },
+  {
+    "problem_id": "logic_23",
+    "condition": "clean",
+    "model_answer": "Frank",
+    "gold_answer": "Frank",
+    "prompt_len": 120
+  },
+  {
+    "problem_id": "logic_23",
+    "condition": "helpful_hint",
+    "model_answer": "Frank",
+    "gold_answer": "Frank",
+    "prompt_len": 169
+  },
+  {
+    "problem_id": "logic_23",
+    "condition": "misleading_hint",
+    "model_answer": "Bob",
+    "gold_answer": "Frank",
+    "prompt_len": 177
+  },
+  {
+    "problem_id": "gsm8k_10",
+    "condition": "clean",
+    "model_answer": "427",
+    "gold_answer": "121",
+    "prompt_len": 180
+  },
+  {
+    "problem_id": "gsm8k_10",
+    "condition": "helpful_hint",
+    "model_answer": "143",
+    "gold_answer": "121",
+    "prompt_len": 238
+  },
+  {
+    "problem_id": "gsm8k_10",
+    "condition": "misleading_hint",
+    "model_answer": "847",
+    "gold_answer": "121",
+    "prompt_len": 230
+  },
+  {
+    "problem_id": "logic_28",
+    "condition": "clean",
+    "model_answer": "Alice",
+    "gold_answer": "Bob",
+    "prompt_len": 120
+  },
+  {
+    "problem_id": "logic_28",
+    "condition": "helpful_hint",
+    "model_answer": "Bob",
+    "gold_answer": "Bob",
+    "prompt_len": 167
+  },
+  {
+    "problem_id": "logic_28",
+    "condition": "misleading_hint",
+    "model_answer": "Alice",
+    "gold_answer": "Bob",
+    "prompt_len": 165
+  },
+  {
+    "problem_id": "logic_29",
+    "condition": "clean",
+    "model_answer": "Charlie",
+    "gold_answer": "Eve",
+    "prompt_len": 120
+  },
+  {
+    "problem_id": "logic_29",
+    "condition": "helpful_hint",
+    "model_answer": "Charlie",
+    "gold_answer": "Eve",
+    "prompt_len": 167
+  },
+  {
+    "problem_id": "logic_29",
+    "condition": "misleading_hint",
+    "model_answer": "Charlie",
+    "gold_answer": "Eve",
+    "prompt_len": 163
+  },
+  {
+    "problem_id": "symb_3",
+    "condition": "clean",
+    "model_answer": "vazdgdza",
+    "gold_answer": "vazdggdzav",
+    "prompt_len": 110
+  },
+  {
+    "problem_id": "symb_3",
+    "condition": "helpful_hint",
+    "model_answer": "",
+    "gold_answer": "vazdggdzav",
+    "prompt_len": 159
+  },
+  {
+    "problem_id": "symb_3",
+    "condition": "misleading_hint",
+    "model_answer": "",
+    "gold_answer": "vazdggdzav",
+    "prompt_len": 158
+  },
+  {
+    "problem_id": "gsm8k_16",
+    "condition": "clean",
+    "model_answer": "2000",
+    "gold_answer": "800",
+    "prompt_len": 160
+  },
+  {
+    "problem_id": "gsm8k_16",
+    "condition": "helpful_hint",
+    "model_answer": "1000",
+    "gold_answer": "800",
+    "prompt_len": 213
+  },
+  {
+    "problem_id": "gsm8k_16",
+    "condition": "misleading_hint",
+    "model_answer": "2000",
+    "gold_answer": "800",
+    "prompt_len": 208
+  },
+  {
+    "problem_id": "gsm8k_11",
+    "condition": "clean",
+    "model_answer": "2",
+    "gold_answer": "5",
+    "prompt_len": 201
+  },
+  {
+    "problem_id": "gsm8k_11",
+    "condition": "helpful_hint",
+    "model_answer": "3",
+    "gold_answer": "5",
+    "prompt_len": 254
+  },
+  {
+    "problem_id": "gsm8k_11",
+    "condition": "misleading_hint",
+    "model_answer": "4",
+    "gold_answer": "5",
+    "prompt_len": 254
+  },
+  {
+    "problem_id": "symb_10",
+    "condition": "clean",
+    "model_answer": "guqvf",
+    "gold_answer": "fvqugguqvf",
+    "prompt_len": 110
+  },
+  {
+    "problem_id": "symb_10",
+    "condition": "helpful_hint",
+    "model_answer": "guqvf",
+    "gold_answer": "fvqugguqvf",
+    "prompt_len": 162
+  },
+  {
+    "problem_id": "symb_10",
+    "condition": "misleading_hint",
+    "model_answer": "guqvf",
+    "gold_answer": "fvqugguqvf",
+    "prompt_len": 164
+  }
+]
