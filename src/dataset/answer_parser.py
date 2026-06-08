@@ -7,7 +7,7 @@ def extract_answer(text: str | None, problem_id: str) -> str:
     """
     if not text:
         return ""
-    text = str(text).strip()
+    text = text.strip()
     if not text:
         return ""
         
